@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- RESET -->
+    <link rel="stylesheet" href="./asset/css/reset.css" />
+    <!-- STYLE -->
+    <link rel="stylesheet" href="./asset/css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="./asset/img/todo_icon.png"
+      type="image/x-icon"
+    />
+    <title>To-Do List</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo-app">
+        <h2>To-Do List <img src="./asset/img/todo_icon.png" alt="icon" /></h2>
+        <div class="row">
+          <input
+            type="text"
+            name=""
+            id="input-box"
+            placeholder="Làm gì bây giờ nhỉ"
+          />
+          <button onclick="addTask()">Add</button>
+        </div>
+        <ul id="list-container">
+          <!-- <li class="checked">Task 1</li>
+          <li>Task 1</li>
+          <li>Task 1</li> -->
+        </ul>
+      </div>
+    </div>
+    <script src="./asset/script/script.js"></script>
+  </body>
+</html>
